@@ -10,7 +10,25 @@ object frmMenu: TfrmMenu
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  Menu = MainMenu1
   OldCreateOrder = False
+  Position = poDesktopCenter
   PixelsPerInch = 96
   TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 48
+    Top = 24
+    object opCategoria: TMenuItem
+      Caption = 'Categoria'
+      OnClick = opCategoriaClick
+    end
+    object opServico: TMenuItem
+      Caption = 'Servi'#231'o'
+      OnClick = opServicoClick
+    end
+    object opProduto: TMenuItem
+      Caption = 'Produto'
+      OnClick = opProdutoClick
+    end
+  end
 end

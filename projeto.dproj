@@ -99,6 +99,22 @@
             <Form>frmMenu</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Categoria.pas">
+            <Form>frmCategoria</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Produto.pas">
+            <Form>frmProduto</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Servico.pas">
+            <Form>frmServico</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="Conexao.pas">
+            <Form>frmConexao</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
